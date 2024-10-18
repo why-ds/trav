@@ -2,44 +2,69 @@
     margin: 0 auto;
     position: absolute;
     top: 0;
-    margin: 0 auto;
-    padding: 0 var(--spacaing-1);
+    left: 1%;
     z-index: 0;
-    color: var(--white-color);
-    /*font-size: var(--font-size-5);*/
     width: 100%;
     /*display: flex;*/
     /*justify-content: space-between;*/ /* 컨텐츠 항목 사이와 주위에 공간을 분배하는 방법을 정의 */
 }
-.content1{
+.content1_text{
+    position: absolute;
+    color: var(--white-color);
+    top: 10%;
+    left: 16%;
+}
+.content1_img{
     position: absolute;
     top: 10%;
-    margin: 0 auto;
+    left: 60%;
 }
-.content1_data1 h1{
+.content2{
+    padding-top: 2%;
+}
+.content2_data{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 var(--spacaing-1);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}
+/*div>article{*/
+.content2_img{
+    width: 300px;
+    float: left;
+    display: flex;
+    margin-left:10px;
+    margin-bottom:10px;
+    border: 1px solid gray;
+    border-radius: 500px;
+    align-items: center;
+    img{display: block;}
+}
+.content3_data{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 var(--spacaing-1);
+    display: flex;
+    padding-top: 2%;
+}
+.content3_img{
+    width: 450px;
+    display: flex;
+    margin-left:10px;
+    margin-bottom:10px;
+    img{display: block;}
+}
+.content3{
+    padding-top: 2%;
+}
+.content1_text h1{
     font-size: var(--font-size-5);
 }
-.content1_data1 h2{
+.content1_text h2{
     font-size: var(--font-size-3);
 }
-.content1_data1 h3{
+.content1_text h3{
     font-size: var(--font-size-0);
-}
-.font-weight-light{
-    font-weight: var(--font-weigth-light);
-}
-.font-weight-medium{
-    font-weight: var(--font-weigth-medium);
-}
-.font-weight-bold{
-    font-weight: var(--font-weigth-bold);
-}
-.font-weight-black{
-    font-weight: var(--font-weigth-black);
-}
-.content1_data{
-    display: flex;
-}
-.content1_data2{
-    margin-left: auto;
 }

@@ -26,6 +26,18 @@
     --spacing-7: 6rem;
     --spacing-10: 10rem;
 }
+.font-weight-light{
+    font-weight: var(--font-weigth-light);
+}
+.font-weight-medium{
+    font-weight: var(--font-weigth-medium);
+}
+.font-weight-bold{
+    font-weight: var(--font-weigth-bold);
+}
+.font-weight-black{
+    font-weight: var(--font-weigth-black);
+}
 .container{
     max-width: 1320px;
     margin: 0 auto;
@@ -66,4 +78,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     animation: ring 1.5s infinite;
+}
+h1{
+    font-size: var(--font-size-5);
+}
+h2{
+    font-size: var(--font-size-3);
+}
+h3{
+    font-size: var(--font-size-0);
 }
