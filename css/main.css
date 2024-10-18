@@ -1,0 +1,45 @@
+.main{
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    padding: 0 var(--spacaing-1);
+    z-index: 0;
+    color: var(--white-color);
+    /*font-size: var(--font-size-5);*/
+    width: 100%;
+    /*display: flex;*/
+    /*justify-content: space-between;*/ /* 컨텐츠 항목 사이와 주위에 공간을 분배하는 방법을 정의 */
+}
+.content1{
+    position: absolute;
+    top: 10%;
+    margin: 0 auto;
+}
+.content1_data1 h1{
+    font-size: var(--font-size-5);
+}
+.content1_data1 h2{
+    font-size: var(--font-size-3);
+}
+.content1_data1 h3{
+    font-size: var(--font-size-0);
+}
+.font-weight-light{
+    font-weight: var(--font-weigth-light);
+}
+.font-weight-medium{
+    font-weight: var(--font-weigth-medium);
+}
+.font-weight-bold{
+    font-weight: var(--font-weigth-bold);
+}
+.font-weight-black{
+    font-weight: var(--font-weigth-black);
+}
+.content1_data{
+    display: flex;
+}
+.content1_data2{
+    margin-left: auto;
+}

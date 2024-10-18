@@ -1,0 +1,28 @@
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    color: var(--white-color);
+    font-size: var(--font-size-5);
+    width: 100%;
+}
+.nav{
+    display: flex;
+    /*justify-content: space-between;*/ /* 컨텐츠 항목 사이와 주위에 공간을 분배하는 방법을 정의 */
+    align-items: center;
+    font-weight: var(--font-weight-black);
+    height: 4.5rem;
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+}
+.nav_list, .nav_list2{
+    display: flex;
+}
+.nav_item{
+    margin-left: var(--spacing-3);
+}
+.nav_menu2{
+    margin-left: auto;
+}

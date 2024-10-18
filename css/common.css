@@ -1,0 +1,69 @@
+:root{
+    --main-color: #ff0000;
+    --body-font: 'Noto Sans KR', sans-serif;
+    --blue-color: #0336ff;
+    --white-color: #ffffff;
+
+    --font-weigth-light: 200;
+    --font-weigth-medium: 400;
+    --font-weigth-bold: 700;
+    --font-weigth-black: 900;
+
+    --font-size-0: 5rem;
+    --font-size-1: 3.5rem;
+    --font-size-2: 2.5rem;
+    --font-size-3: 2rem;
+    --font-size-4: 1.5rem;
+    --font-size-5: 1rem;
+    --font-size-6: 0.875rem;
+
+    --spacing-1: 1rem;
+    --spacing-2: 2rem;
+    --spacing-3: 2.5rem;
+    --spacing-4: 3rem;
+    --spacing-5: 4rem;
+    --spacing-6: 5rem;
+    --spacing-7: 6rem;
+    --spacing-10: 10rem;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 var(--spacaing-1);
+    display: flex;
+}
+.roundBtn {
+    position: relative;
+    border: none;
+    min-width: 50px;
+    min-height: 50px;
+    background: var(--white-color);
+    /*background: linear-gradient(
+        90deg,
+        rgba(129, 230, 217, 1) 0%,
+        rgba(79, 209, 197, 1) 100%
+    );*/
+    border-radius: 1000px;
+    color: darkslategray;
+    cursor: pointer;
+    /*box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);*/
+    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.64);
+    font-weight: 700;
+    transition: 0.3s;
+}
+.roundBtn:hover {
+    transform: scale(1.2);
+}
+.roundBtn:hover::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    /*border: 6px solid #00ffcb;*/
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
