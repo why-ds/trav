@@ -1,12 +1,20 @@
 .main{
+    padding-bottom: 100px;
     margin: 0 auto;
-    position: absolute;
     top: 0;
-    left: 1%;
+    padding-left: 1%;
     z-index: 0;
     width: 100%;
-    /*display: flex;*/
-    /*justify-content: space-between;*/ /* 컨텐츠 항목 사이와 주위에 공간을 분배하는 방법을 정의 */
+    /*display: flex;
+    position: absolute;
+
+    static	기준 없음 (배치 불가능 / 기본값)
+    relative	요소 자기 자신을 기준으로 배치
+    absolute	부모(조상) 요소를 기준으로 배치
+    fixed	뷰포트 기준으로 배치
+    stickey	스크롤 영역 기준으로 배치
+
+    justify-content: space-between;*/ /* 컨텐츠 항목 사이와 주위에 공간을 분배하는 방법을 정의 */
 }
 .content1_text{
     position: absolute;

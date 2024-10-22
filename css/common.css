@@ -1,3 +1,7 @@
+html{
+    height: 100%;
+}
+
 :root{
     --main-color: #ff0000;
     --body-font: 'Noto Sans KR', sans-serif;
@@ -87,4 +91,7 @@ h2{
 }
 h3{
     font-size: var(--font-size-0);
+}
+.warp{
+    min-height : 100%;
 }

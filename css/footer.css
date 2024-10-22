@@ -1,9 +1,12 @@
 footer{
-    background-color: black;
-    color: antiquewhite;
-    height: 100px;
-    left: 0;
-    width: 100%;
-    position: relative;
-    transform: translateY(-100%);
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 var(--spacaing-1);
+}
+.footer_warp1{
+    background: ivory;
+}
+.footer_warp1, .footer_warp2{
+    display: flex;
+    justify-content: space-between;
 }
